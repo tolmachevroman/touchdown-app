@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2032D7F12BA063BA00F17564 /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = 2032D7ED2BA063BA00F17564 /* product.json */; };
+		2032D7F22BA063BA00F17564 /* brand.json in Resources */ = {isa = PBXBuildFile; fileRef = 2032D7EE2BA063BA00F17564 /* brand.json */; };
+		2032D7F32BA063BA00F17564 /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = 2032D7EF2BA063BA00F17564 /* category.json */; };
+		2032D7F42BA063BA00F17564 /* player.json in Resources */ = {isa = PBXBuildFile; fileRef = 2032D7F02BA063BA00F17564 /* player.json */; };
+		2032D7FF2BA065EF00F17564 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2032D7FE2BA065EF00F17564 /* Constant.swift */; };
+		2032D8012BA0669900F17564 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2032D8002BA0669900F17564 /* FooterView.swift */; };
 		204B280A2BA0614200E5FE53 /* TouchdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204B28092BA0614200E5FE53 /* TouchdownApp.swift */; };
 		204B280C2BA0614200E5FE53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204B280B2BA0614200E5FE53 /* ContentView.swift */; };
 		204B280E2BA0614400E5FE53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 204B280D2BA0614400E5FE53 /* Assets.xcassets */; };
@@ -14,6 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2032D7ED2BA063BA00F17564 /* product.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = product.json; sourceTree = "<group>"; };
+		2032D7EE2BA063BA00F17564 /* brand.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = brand.json; sourceTree = "<group>"; };
+		2032D7EF2BA063BA00F17564 /* category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category.json; sourceTree = "<group>"; };
+		2032D7F02BA063BA00F17564 /* player.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = player.json; sourceTree = "<group>"; };
+		2032D7F62BA0645600F17564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2032D7FE2BA065EF00F17564 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		2032D8002BA0669900F17564 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		204B28062BA0614200E5FE53 /* Touchdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touchdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		204B28092BA0614200E5FE53 /* TouchdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchdownApp.swift; sourceTree = "<group>"; };
 		204B280B2BA0614200E5FE53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +45,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2032D7F52BA0640600F17564 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2032D7EE2BA063BA00F17564 /* brand.json */,
+				2032D7EF2BA063BA00F17564 /* category.json */,
+				2032D7F02BA063BA00F17564 /* player.json */,
+				2032D7ED2BA063BA00F17564 /* product.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2032D7F72BA0653800F17564 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				204B28092BA0614200E5FE53 /* TouchdownApp.swift */,
+				204B280B2BA0614200E5FE53 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2032D7F82BA0654500F17564 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2032D7FA2BA0655800F17564 /* Detail */,
+				2032D7F92BA0655400F17564 /* Home */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2032D7F92BA0655400F17564 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2032D8002BA0669900F17564 /* FooterView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2032D7FA2BA0655800F17564 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		2032D7FB2BA0656500F17564 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2032D7FC2BA0657100F17564 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2032D7FD2BA0657C00F17564 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				2032D7FE2BA065EF00F17564 /* Constant.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		204B27FD2BA0614200E5FE53 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +130,14 @@
 		204B28082BA0614200E5FE53 /* Touchdown */ = {
 			isa = PBXGroup;
 			children = (
-				204B28092BA0614200E5FE53 /* TouchdownApp.swift */,
-				204B280B2BA0614200E5FE53 /* ContentView.swift */,
+				2032D7F72BA0653800F17564 /* App */,
+				2032D7F52BA0640600F17564 /* Data */,
+				2032D7FB2BA0656500F17564 /* Model */,
+				2032D7F82BA0654500F17564 /* View */,
+				2032D7FC2BA0657100F17564 /* Extension */,
+				2032D7FD2BA0657C00F17564 /* Utility */,
 				204B280D2BA0614400E5FE53 /* Assets.xcassets */,
+				2032D7F62BA0645600F17564 /* Info.plist */,
 				204B280F2BA0614400E5FE53 /* Preview Content */,
 			);
 			path = Touchdown;
@@ -125,8 +209,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2032D7F42BA063BA00F17564 /* player.json in Resources */,
 				204B28112BA0614400E5FE53 /* Preview Assets.xcassets in Resources */,
+				2032D7F22BA063BA00F17564 /* brand.json in Resources */,
+				2032D7F32BA063BA00F17564 /* category.json in Resources */,
 				204B280E2BA0614400E5FE53 /* Assets.xcassets in Resources */,
+				2032D7F12BA063BA00F17564 /* product.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +226,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				204B280C2BA0614200E5FE53 /* ContentView.swift in Sources */,
+				2032D8012BA0669900F17564 /* FooterView.swift in Sources */,
 				204B280A2BA0614200E5FE53 /* TouchdownApp.swift in Sources */,
+				2032D7FF2BA065EF00F17564 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +365,12 @@
 				DEVELOPMENT_TEAM = 7CK797UK32;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Touchdown/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +395,12 @@
 				DEVELOPMENT_TEAM = 7CK797UK32;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Touchdown/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
