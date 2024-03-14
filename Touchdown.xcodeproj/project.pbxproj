@@ -40,6 +40,7 @@
 		204EF7F32BA2280400A07013 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EF7F22BA2280400A07013 /* CustomShape.swift */; };
 		204EF7F52BA2756400A07013 /* RatingsSizesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EF7F42BA2756400A07013 /* RatingsSizesDetailView.swift */; };
 		204EF7F72BA277A500A07013 /* QuantityFavoriteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EF7F62BA277A500A07013 /* QuantityFavoriteDetailView.swift */; };
+		204EF7F92BA27A1300A07013 /* AddToCartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EF7F82BA27A1300A07013 /* AddToCartDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +79,7 @@
 		204EF7F22BA2280400A07013 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 		204EF7F42BA2756400A07013 /* RatingsSizesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsSizesDetailView.swift; sourceTree = "<group>"; };
 		204EF7F62BA277A500A07013 /* QuantityFavoriteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityFavoriteDetailView.swift; sourceTree = "<group>"; };
+		204EF7F82BA27A1300A07013 /* AddToCartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				20403CD52BA1351500EB2EDC /* TopPartDetailView.swift */,
 				204EF7F42BA2756400A07013 /* RatingsSizesDetailView.swift */,
 				204EF7F62BA277A500A07013 /* QuantityFavoriteDetailView.swift */,
+				204EF7F82BA27A1300A07013 /* AddToCartDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				2032D8052BA06F1400F17564 /* LogoView.swift in Sources */,
 				2032D8012BA0669900F17564 /* FooterView.swift in Sources */,
 				2032D80B2BA076FD00F17564 /* FeaturedItemView.swift in Sources */,
+				204EF7F92BA27A1300A07013 /* AddToCartDetailView.swift in Sources */,
 				204DF0532BA12D1500B65369 /* ProductItemView.swift in Sources */,
 				20403CCE2BA130AA00EB2EDC /* BrandGridView.swift in Sources */,
 				204EF7F52BA2756400A07013 /* RatingsSizesDetailView.swift in Sources */,
